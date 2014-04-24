@@ -1,0 +1,16 @@
+#ifndef RSSIMESSAGE_H
+#define RSSIMESSAGE_H
+
+
+
+typedef nx_struct RssiMsg {
+	nx_uint16_t nodeid;
+	nx_uint16_t seq;
+	nx_uint16_t rssi;
+} RssiMsg;
+
+
+enum {
+  //	AM_RSSIMSG = 0,
+};
+#endif /* RSSIMESSAGE_H */
