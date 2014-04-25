@@ -29,6 +29,7 @@ implementation {
   TestM.RReceive -> ActiveMessageC.Snoop[1];
   TestM.MHControl -> DymoNetworkC;
 
+// This section can be put in it's own module and run independently.
  	TestM.BeaconPacket -> BeaconSenderC;
 	TestM.AMBeaconPacket -> BeaconSenderC;
 	TestM.AMBeaconSend -> BeaconSenderC;

@@ -20370,7 +20370,7 @@ inline static message_t * CC2420ActiveMessageP__Snoop__receive(am_id_t arg_0x410
 #line 78
   switch (arg_0x41080088) {
 #line 78
-    case 6:
+    case 1:
 #line 78
       __nesc_result = TestM__RReceive__receive(msg, payload, len);
 #line 78
